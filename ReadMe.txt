@@ -8,6 +8,8 @@ To use this you need to follow these steps:
 As you might have guessed you will need to have the app installed below your Linux Subsystem. To do this you will want to copy this command into the command line and execute it:
 curl -s https://raw.githubusercontent.com/rolandoislas/drc-sim/develop/install.sh | sudo bash -s develop
 
+You could also use the included shell script to handle the task for you.
+
 Source (for future changes or issues): https://github.com/rolandoislas/drc-sim/wiki/Install-Script#easy-install
 
 2. Install xMing
