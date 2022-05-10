@@ -7,7 +7,7 @@ To use this you need to follow these steps:
 
 ## 1. Install DRC-SIM
 As you might have guessed you will need to have the app installed below your Linux Subsystem. To do this you will want to copy this command into the command line and execute it:
-curl -s https://raw.githubusercontent.com/rolandoislas/drc-sim/develop/install.sh | sudo bash -s develop
+`curl -s https://raw.githubusercontent.com/rolandoislas/drc-sim/develop/install.sh | sudo bash -s develop`
 
 You could also use the included shell script to handle the task for you.
 
@@ -20,10 +20,10 @@ The Ip should be listed under "XdmcpRegisterConnection:".
 Source: https://sourceforge.net/projects/xming/
 
 ## 3. Export the Linux Display
-In order to use xMing with Linux type "export DISPLAY=%ip%:0" into a Linux command line and replace %ip% with your Ip that you got from the xMing Logs.
+In order to use xMing with Linux type `export DISPLAY=%ip%:0`into a Linux command line and replace %ip% with your Ip that you got from the xMing Logs.
 
 ## 4. Launch DRC-SIM
-Now you are ready to launch drc-sim. Type "drc-sim-backend" into the Linux command line and check that there are no errors. If everything works you should see xMing open a small drc-sim control panel.
+Now you are ready to launch drc-sim. Type `drc-sim-backend` into the Linux command line and check that there are no errors. If everything works you should see xMing open a small drc-sim control panel.
 
 ## Notes:
 You can skip step 3 and 4 by launching the supplied shell file.
